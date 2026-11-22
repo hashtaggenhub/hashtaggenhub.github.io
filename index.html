@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="google-site-verification" content="HoWofmErOOKMSn8dHeXvBTb5cGoEBEB1rQ7Y3CrUYgY" />
+    <link rel="canonical" href="https://hashtaggenhub.github.io/" />
+    <meta property="og:url" content="https://hashtaggenhub.github.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Hashtag Generator — Free Hashtags for Instagram, TikTok, YouTube &amp; X | HashtagGenHub</title>
+    <meta name="description" content="HashtagGenHub is a free hashtag generator for Instagram, TikTok, YouTube and X. Type a keyword, pick your platform and set size, and get a ready-to-copy mix of popular and niche hashtags — plus honest guides on hashtag strategy for 2026." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="HashtagGenHub" />
+    <meta property="og:title" content="Hashtag Generator — Free Hashtags for Instagram, TikTok, YouTube &amp; X" />
+    <meta property="og:description" content="Generate a ready-to-copy set of hashtags for any topic in seconds. Curated niche lists, smart keyword variations, platform presets and honest strategy guides." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Hashtag Generator | HashtagGenHub" />
+    <meta name="twitter:description" content="Free hashtag generator for Instagram, TikTok, YouTube and X, with curated niche lists and 2026 strategy guides." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "HashtagGenHub",
+      "url": "https://hashtaggenhub.github.io/",
+      "alternateName": "Hashtag Generator",
+      "description": "Free hashtag generator for Instagram, TikTok, YouTube and X with curated niche hashtag lists and original strategy guides."
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f4f9fd;
+        --bg-soft: #e8f3fb;
+        --surface: #ffffff;
+        --ink: #0c2438;
+        --ink-soft: #33536b;
+        --muted: #5b7a90;
+        --line: #cfe3f1;
+        --sky: #0284c7;
+        --sky-deep: #075985;
+        --sky-bright: #38bdf8;
+        --sky-tint: #e0f2fe;
+        --chip-bg: #e0f2fe;
+        --chip-ink: #075985;
+        --warn-bg: #fdf3e3;
+        --warn-line: #e8c98a;
+        --warn-ink: #6b4e12;
+        --ok: #15803d;
+        --shadow: 0 10px 30px rgba(2, 132, 199, 0.10);
+        --radius: 14px;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #081726;
+          --bg-soft: #0b2036;
+          --surface: #0d2438;
+          --ink: #e6f3fc;
+          --ink-soft: #b9d6ea;
+          --muted: #8fb0c7;
+          --line: #1d3d57;
+          --sky: #38bdf8;
+          --sky-deep: #7dd3fc;
+          --sky-bright: #38bdf8;
+          --sky-tint: #0e2c44;
+          --chip-bg: #10344f;
+          --chip-ink: #bae6fd;
+          --warn-bg: #2c2410;
+          --warn-line: #6b5518;
+          --warn-ink: #f3d98b;
+          --ok: #4ade80;
+          --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+        }
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+        font-size: 17px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+      }
+      h1, h2, h3, h4 {
+        font-family: "Archivo", "Manrope", system-ui, sans-serif;
+        line-height: 1.18;
+        letter-spacing: -0.01em;
+        color: var(--ink);
+        margin: 0 0 0.55em;
+      }
+      h1 { font-size: clamp(1.9rem, 5.2vw, 2.9rem); font-weight: 800; }
+      h2 { font-size: clamp(1.45rem, 3.6vw, 2rem); font-weight: 700; margin-top: 1.6em; }
+      h3 { font-size: 1.18rem; font-weight: 700; margin-top: 1.4em; }
+      p { margin: 0 0 1em; }
+      a { color: var(--sky); text-decoration-color: rgba(2,132,199,.45); text-underline-offset: 3px; }
+      a:hover { color: var(--sky-deep); }
+      button, [role="button"], select, summary, input:not([type="checkbox"], [type="radio"]) { min-height: 2.25rem; }
+      .wrap { max-width: 1060px; margin: 0 auto; padding: 0 20px; }
+      .narrow { max-width: 760px; }
+
+      /* Header / nav */
+      header.site {
+        position: sticky; top: 0; z-index: 50;
+        background: color-mix(in srgb, var(--bg) 88%, transparent);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--line);
+      }
+      .nav {
+        display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+        padding-top: 10px; padding-bottom: 10px;
+      }
+      .brand {
+        font-family: "Archivo", sans-serif; font-weight: 800; font-size: 1.25rem;
+        color: var(--ink); text-decoration: none; letter-spacing: -0.02em;
+        display: inline-flex; align-items: center; gap: 8px; min-height: 2.25rem;
+      }
+      .brand .hashmark {
+        display: inline-grid; place-items: center; width: 30px; height: 30px;
+        background: var(--sky); color: #fff; border-radius: 8px; font-size: 1.05rem; font-weight: 800;
+      }
+      .brand span em { font-style: normal; color: var(--sky); }
+      nav.links { display: flex; flex-wrap: wrap; gap: 2px 4px; margin-left: auto; }
+      nav.links a {
+        color: var(--ink-soft); text-decoration: none; font-weight: 600; font-size: 0.95rem;
+        padding: 8px 10px; border-radius: 8px; display: inline-flex; align-items: center; min-height: 2.25rem;
+      }
+      nav.links a:hover { background: var(--sky-tint); color: var(--sky-deep); }
+
+      /* Hero + tool */
+      .hero { padding: 44px 0 10px; }
+      .hero .lede { font-size: 1.13rem; color: var(--ink-soft); max-width: 640px; }
+      .tool {
+        background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+        box-shadow: var(--shadow); padding: 22px; margin: 26px 0 8px;
+      }
+      .tool-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+      @media (min-width: 760px) { .tool-grid { grid-template-columns: 2fr 1fr 1fr; } }
+      label.flabel { display: block; font-weight: 700; font-size: 0.86rem; letter-spacing: 0.02em; color: var(--ink-soft); margin-bottom: 6px; }
+      input[type="text"], select {
+        width: 100%; font: inherit; font-size: 1rem; color: var(--ink);
+        background: var(--bg); border: 1.5px solid var(--line); border-radius: 10px;
+        padding: 10px 12px; min-height: 3rem;
+      }
+      input[type="text"]:focus, select:focus { outline: 2px solid var(--sky-bright); outline-offset: 1px; border-color: var(--sky); }
+      .seg { display: flex; gap: 6px; }
+      .seg button {
+        flex: 1; font: inherit; font-weight: 700; font-size: 0.95rem; cursor: pointer;
+        background: var(--bg); color: var(--ink-soft); border: 1.5px solid var(--line);
+        border-radius: 10px; padding: 10px 4px; min-height: 3rem;
+      }
+      .seg button[aria-pressed="true"] { background: var(--sky); border-color: var(--sky); color: #fff; }
+      .generate-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; align-items: center; }
+      .btn {
+        font: inherit; font-weight: 700; cursor: pointer; border-radius: 10px;
+        padding: 11px 20px; min-height: 3rem; border: 1.5px solid transparent;
+        display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+      }
+      .btn-primary { background: var(--sky); color: #fff; }
+      .btn-primary:hover { background: var(--sky-deep); color: #fff; }
+      .btn-ghost { background: transparent; color: var(--sky-deep); border-color: var(--line); }
+      .btn-ghost:hover { border-color: var(--sky); color: var(--sky-deep); }
+      .quick { margin-top: 16px; font-size: 0.92rem; color: var(--muted); }
+      .quick button {
+        font: inherit; font-size: 0.9rem; font-weight: 600; cursor: pointer;
+        background: var(--chip-bg); color: var(--chip-ink); border: none; border-radius: 999px;
+        padding: 7px 13px; margin: 3px 2px; min-height: 2.25rem;
+      }
+      .quick button:hover { background: var(--sky); color: #fff; }
+      .results { margin-top: 20px; display: none; }
+      .results.show { display: block; }
+      .results-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+      .results-head .meta { color: var(--muted); font-size: 0.92rem; font-weight: 600; }
+      .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px; }
+      .tagchip {
+        font: inherit; font-size: 0.95rem; font-weight: 600; cursor: pointer;
+        background: var(--sky-tint); color: var(--sky-deep); border: 1px solid var(--line);
+        border-radius: 999px; padding: 8px 14px; min-height: 2.5rem;
+      }
+      .tagchip:hover { border-color: var(--sky); }
+      .tagchip.copied { background: var(--ok); border-color: var(--ok); color: #fff; }
+      .output-box {
+        width: 100%; font: inherit; font-size: 0.95rem; line-height: 1.6; color: var(--ink);
+        background: var(--bg); border: 1.5px solid var(--line); border-radius: 10px; padding: 12px;
+        min-height: 96px; resize: vertical;
+      }
+      .hint { font-size: 0.88rem; color: var(--muted); margin-top: 8px; }
+      .toast {
+        position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%) translateY(20px);
+        background: var(--ink); color: var(--bg); font-weight: 700; font-size: 0.95rem;
+        padding: 11px 20px; border-radius: 999px; opacity: 0; pointer-events: none;
+        transition: opacity .25s ease, transform .25s ease; z-index: 100; max-width: 90vw; text-align: center;
+      }
+      .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+      /* Prose sections */
+      section.prose { padding: 18px 0 6px; }
+      .prose p, .article-body p { color: var(--ink-soft); }
+      .prose strong, .article-body strong { color: var(--ink); }
+      .warn {
+        background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: var(--radius);
+        padding: 18px 20px; margin: 22px 0;
+      }
+      .warn h3 { margin-top: 0; color: var(--warn-ink); }
+      .warn p { color: var(--warn-ink); margin-bottom: 0.6em; }
+      .warn p:last-child { margin-bottom: 0; }
+      .guide-list { list-style: none; padding: 0; margin: 10px 0 0; }
+      .guide-list li { padding: 16px 0; border-bottom: 1px solid var(--line); }
+      .guide-list li:last-child { border-bottom: none; }
+      .guide-list a.gtitle { font-family: "Archivo", sans-serif; font-weight: 700; font-size: 1.12rem; text-decoration: none; }
+      .guide-list p { margin: 4px 0 0; font-size: 0.97rem; }
+      .stat-row { display: flex; flex-wrap: wrap; gap: 26px; margin: 18px 0 6px; }
+      .stat-row .stat b { display: block; font-family: "Archivo", sans-serif; font-size: 1.5rem; color: var(--sky-deep); }
+      .stat-row .stat span { font-size: 0.9rem; color: var(--muted); font-weight: 600; }
+
+      /* Article / page views */
+      .view { display: none; }
+      .view.active { display: block; }
+      .crumb { font-size: 0.9rem; color: var(--muted); margin: 26px 0 10px; font-weight: 600; }
+      .crumb a { color: var(--muted); }
+      article.page { padding-bottom: 30px; }
+      .article-body { max-width: 760px; }
+      .article-body ul, .article-body ol { color: var(--ink-soft); padding-left: 1.3em; }
+      .article-body li { margin-bottom: 0.45em; }
+      table.mini { border-collapse: collapse; margin: 14px 0 20px; width: 100%; max-width: 620px; font-size: 0.97rem; }
+      table.mini th, table.mini td { border: 1px solid var(--line); padding: 9px 12px; text-align: left; }
+      table.mini th { background: var(--sky-tint); color: var(--ink); font-family: "Archivo", sans-serif; }
+      table.mini td { color: var(--ink-soft); }
+      details.faq { border-bottom: 1px solid var(--line); padding: 6px 0; }
+      details.faq summary { cursor: pointer; font-family: "Archivo", sans-serif; font-weight: 700; font-size: 1.05rem; padding: 10px 0; color: var(--ink); }
+      details.faq p { color: var(--ink-soft); padding-bottom: 12px; }
+
+      footer.site { border-top: 1px solid var(--line); margin-top: 46px; background: var(--bg-soft); }
+      .foot { padding: 30px 0 36px; display: grid; gap: 22px; }
+      @media (min-width: 760px) { .foot { grid-template-columns: 1.4fr 1fr 1fr; } }
+      .foot h4 { font-size: 0.95rem; margin-bottom: 10px; }
+      .foot ul { list-style: none; padding: 0; margin: 0; }
+      .foot li { margin-bottom: 4px; }
+      .foot a { color: var(--ink-soft); text-decoration: none; font-size: 0.95rem; display: inline-flex; align-items: center; min-height: 2rem; }
+      .foot a:hover { color: var(--sky-deep); text-decoration: underline; }
+      .foot p { color: var(--muted); font-size: 0.93rem; }
+      .fineprint { border-top: 1px solid var(--line); padding: 14px 0 20px; font-size: 0.85rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between; }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        .toast { transition: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap nav">
+        <a class="brand" href="#/"><span class="hashmark">#</span><span>Hashtag<em>Gen</em>Hub</span></a>
+        <nav class="links" aria-label="Main">
+          <a href="#/">Generator</a>
+          <a href="#/guide/how-many-hashtags">Guides</a>
+          <a href="#/about">About</a>
+          <a href="#/faq">FAQ</a>
+          <a href="#/contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HOME ============ -->
+      <div class="view" id="view-home">
+        <div class="wrap">
+          <div class="hero narrow">
+            <h1>Hashtag Generator</h1>
+            <p class="lede">Type a keyword, pick your platform, and get a ready-to-copy set of hashtags built from curated niche lists and smart variations of your topic. No sign-up, no cost — the whole tool runs right here in your browser.</p>
+          </div>
+
+          <div class="tool" id="tool">
+            <div class="tool-grid">
+              <div>
+                <label class="flabel" for="keyword">Keyword or topic</label>
+                <input type="text" id="keyword" placeholder="e.g. fitness, travel, wedding cake…" autocomplete="off" />
+              </div>
+              <div>
+                <label class="flabel" for="platform">Platform</label>
+                <select id="platform">
+                  <option value="instagram" selected>Instagram</option>
+                  <option value="tiktok">TikTok</option>
+                  <option value="youtube">YouTube</option>
+                  <option value="x">X (Twitter)</option>
+                </select>
+              </div>
+              <div>
+                <label class="flabel" id="size-label">How many hashtags</label>
+                <div class="seg" role="group" aria-labelledby="size-label">
+                  <button type="button" data-size="10" aria-pressed="false">10</button>
+                  <button type="button" data-size="20" aria-pressed="true">20</button>
+                  <button type="button" data-size="30" aria-pressed="false">30</button>
+                </div>
+              </div>
+            </div>
+            <div class="generate-row">
+              <button class="btn btn-primary" id="generate" type="button">Generate hashtags</button>
+              <button class="btn btn-ghost" id="shuffle" type="button">Shuffle mix</button>
+            </div>
+            <div class="quick" aria-label="Popular topics">
+              Popular topics:
+              <button type="button" data-kw="fitness">Fitness</button>
+              <button type="button" data-kw="travel">Travel</button>
+              <button type="button" data-kw="food">Food</button>
+              <button type="button" data-kw="photography">Photography</button>
+              <button type="button" data-kw="business">Business</button>
+              <button type="button" data-kw="wedding">Wedding</button>
+              <button type="button" data-kw="pets">Pets</button>
+              <button type="button" data-kw="fashion">Fashion</button>
+            </div>
+
+            <div class="results" id="results" aria-live="polite">
+              <div class="results-head">
+                <h3 style="margin:0;">Your hashtag set</h3>
+                <span class="meta"><span id="tagcount">0</span> hashtags · <span id="charcount">0</span> characters</span>
+              </div>
+              <div class="chips" id="chips"></div>
+              <label class="flabel" for="output">Copy-ready block</label>
+              <textarea class="output-box" id="output" readonly></textarea>
+              <div class="generate-row" style="margin-top:12px;">
+                <button class="btn btn-primary" id="copyall" type="button">Copy all hashtags</button>
+                <button class="btn btn-ghost" id="copynospace" type="button">Copy as one line</button>
+              </div>
+              <p class="hint">Tip: tap any single hashtag above to copy just that one. Sets are mixed on purpose — a few widely used tags for discovery, and mostly specific niche tags where your post can actually be seen. Read why in our guide to <a href="#/guide/big-vs-niche-hashtags">big vs niche hashtags</a>.</p>
+            </div>
+          </div>
+
+          <section class="prose narrow">
+            <h2>How hashtags actually work in 2026</h2>
+            <p>A hashtag is a label, and labels only help when they describe what is genuinely in the post. Every major platform now reads far more than your hashtags — captions, on-screen text, audio, watch time and saves all feed the recommendation systems — but hashtags still do one job nothing else does as cleanly: they file your post into a topic shelf where people who follow or search that topic can find it. Think of them as the index card, not the book.</p>
+            <p>That is why the generator above is built the way it is. For each topic it starts from a hand-checked list of tags that people in that niche really use, then layers in variations of your exact keyword — compound forms, community forms and everyday phrasings — so the set reads like something a person in that community would write, not a wall of generic spam tags. A set for "trail running" should not look like a set for "wedding photography", and with a good generator, it doesn't.</p>
+            <p>Hashtags also behave differently on each platform, which is why the tool asks where you are posting before it builds your set. Instagram treats hashtags as a discovery and categorisation signal on posts and Reels. TikTok leans on them lightly — search and topic pages matter, but the first seconds of the video matter more. YouTube uses a small number of hashtags above the title as topic markers. X rewards restraint: one or two precise tags beat a paragraph of them. Our guide on <a href="#/guide/how-many-hashtags">how many hashtags to use on each platform</a> walks through the current numbers in detail.</p>
+            <p>One more thing worth knowing before you copy anything: hashtags are not a growth hack by themselves. They put a relevant post in front of a relevant audience; they cannot rescue a post the audience doesn't want. The creators who get consistent results treat hashtags as the last five percent of the work — the hook, the cover frame and the first caption line do the heavy lifting — and then use a tool like this one to label the finished post accurately and quickly.</p>
+
+            <h2>How many hashtags should you use?</h2>
+            <p>The honest answer is "it depends on the platform", and anyone who gives you one magic number for everywhere is selling you something. Instagram allows up to 30 hashtags on a post, and its own guidance in recent years has pointed creators toward a small, relevant handful — most accounts do well somewhere between 3 and 10 well-chosen tags, with Reels often performing best at the lower end. TikTok posts commonly carry 3 to 6. YouTube displays only the first three hashtags above your video title, which tells you exactly how many it considers useful. On X, one or two is the norm and more than that reads as spam to both readers and the ranking system.</p>
+            <p>The set-size buttons in the generator (10, 20, 30) exist because many people still prefer to generate a generous pool and then trim it down by hand — that is a perfectly good workflow, especially on Instagram, where you might keep 8 tags on the post and park alternates in your notes for the next one. If you want the reasoning, the platform-by-platform evidence and the exceptions, read the full guide: <a href="#/guide/how-many-hashtags">How Many Hashtags Should You Use in 2026? (Per Platform)</a>.</p>
+
+            <h2>Mixing big hashtags and niche hashtags</h2>
+            <p>Every hashtag sits somewhere on a spectrum from enormous to tiny. A tag like #travel has been used on hundreds of millions of posts; your photo will be buried under fresh uploads within seconds, but the audience browsing it is vast. A tag like #slowtravelscotland might see a handful of posts a week — small audience, but your post can sit near the top of it for days, in front of exactly the people most likely to care.</p>
+            <p>Strong sets blend the two ends deliberately: a small number of broad tags to signal the general topic, a solid middle of mid-sized community tags, and a base of specific niche tags where a smaller account can realistically rank. The generator's curated lists are built in those three layers, and the ratio shifts with your set size — a 10-tag set leans niche, a 30-tag set can afford more of the big end. If you are growing from a small base, this matters more than almost anything else about hashtags, and we break the whole method down in <a href="#/guide/big-vs-niche-hashtags">Big vs Niche Hashtags: The Mix That Gets Reach</a> and in the companion piece on <a href="#/guide/hashtag-strategy-small-accounts">hashtag strategy for small accounts</a>.</p>
+
+            <div class="warn">
+              <h3>A warning about banned and risky hashtags</h3>
+              <p>Some hashtags are restricted or blocked by platforms because they were overrun by spam or policy-breaking content — and the list is stranger than you would expect, including innocent-looking words that picked up a second meaning somewhere along the way. Posting with a restricted tag can quietly suppress that post's distribution, and repeatedly using flagged tags is one of the common threads in accounts that feel "shadowbanned".</p>
+              <p>The sets generated here are drawn from lists we keep clean of known restricted tags, but lists age and platforms do not publish a complete official register. Before you reuse any hashtag set for months on end, it is worth learning <a href="#/guide/banned-hashtags">how to check a hashtag yourself</a> — it takes under a minute per tag, and it is much cheaper than wondering why your reach fell off a cliff.</p>
+            </div>
+
+            <h2>Instagram, TikTok, YouTube or X — the differences that matter</h2>
+            <p>Because the platforms treat hashtags so differently, a set that is perfect for Instagram is usually wrong for TikTok. Instagram rewards descriptive, topic-true tags and lets you use a fair number of them. TikTok's discovery runs on watch behaviour first; hashtags there work best as search phrases people actually type, kept short. YouTube's three displayed hashtags should be your video's core topic terms, no more. X is a conversation platform — tags join a post to a live discussion, so event and community tags outperform evergreen ones.</p>
+            <p>When you switch the platform in the generator, the mix changes with it: TikTok sets come out shorter and more search-phrased, X sets lean toward concise CamelCase tags that screen readers can pronounce, and YouTube sets lead with your three strongest topic tags. For the full comparison, see <a href="#/guide/tiktok-vs-instagram-hashtags">TikTok vs Instagram Hashtags: What Is Different?</a></p>
+
+            <h2>Getting more from every set you generate</h2>
+            <p>A few habits separate people who get steady value from hashtags from people who copy thirty tags and hope. First, rotate your sets. Posting the identical block under every post trains the platform to treat your tags as boilerplate; keep two or three sets per theme and alternate them. Second, match tags to the specific post, not just your account's general topic — a fitness account posting a meal-prep video should use food-prep tags that day, not its usual gym set. Third, check your results. Every platform shows you, in its analytics, which posts earned reach from non-followers; when a particular tag cluster keeps showing up on your best posts, that is your niche telling you where it lives.</p>
+            <p>Finally, keep your own list. The generator is a starting point — save the sets that work for you, prune the tags that never deliver, and over a few months you will have something better than any generator: a tested, personal library. If you are starting from zero followers, our <a href="#/guide/hashtag-strategy-small-accounts">small-account hashtag strategy</a> lays out the first ninety days step by step, and the <a href="#/faq">FAQ page</a> answers the questions we hear most often.</p>
+          </section>
+
+          <section class="prose">
+            <h2 class="narrow">Hashtag guides</h2>
+            <ul class="guide-list narrow">
+              <li>
+                <a class="gtitle" href="#/guide/how-many-hashtags">How Many Hashtags Should You Use in 2026? (Per Platform)</a>
+                <p>The current, platform-by-platform numbers — Instagram, TikTok, YouTube, X and LinkedIn — and why the old "always use 30" advice is out of date.</p>
+              </li>
+              <li>
+                <a class="gtitle" href="#/guide/big-vs-niche-hashtags">Big vs Niche Hashtags: The Mix That Gets Reach</a>
+                <p>How to blend high-volume tags with specific community tags, the three-layer method, and the ratios that suit small, medium and large accounts.</p>
+              </li>
+              <li>
+                <a class="gtitle" href="#/guide/banned-hashtags">Banned Hashtags: How to Check and Avoid Them</a>
+                <p>What a restricted hashtag actually does to your post, how to check any tag in under a minute, and what to do if you have been using one.</p>
+              </li>
+              <li>
+                <a class="gtitle" href="#/guide/hashtag-strategy-small-accounts">Hashtag Strategy for Small Accounts</a>
+                <p>A realistic ninety-day approach for accounts under 10,000 followers: where small accounts can actually rank, and how to grow your tag library as you grow.</p>
+              </li>
+              <li>
+                <a class="gtitle" href="#/guide/tiktok-vs-instagram-hashtags">TikTok vs Instagram Hashtags: What Is Different?</a>
+                <p>Two platforms, two discovery engines. Why the same set rarely works on both, and how to adapt one topic into two effective sets.</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- ============ GUIDE 1 ============ -->
+      <div class="view" id="view-guide-how-many">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Guides › How Many Hashtags</p>
+          <article class="page article-body">
+            <h1>How Many Hashtags Should You Use in 2026? (Per Platform)</h1>
+            <p>Ask ten creators how many hashtags a post should carry and you will hear everything from "none, they're dead" to "all thirty, every time". Both extremes are wrong, and they are wrong in an instructive way: the right number is not a property of hashtags in general, it is a property of the platform you are posting on, the format you are posting in, and the size of the audience you already have. This guide goes platform by platform, explains the reasoning behind each number, and ends with a simple rule you can apply when you are in doubt.</p>
+
+            <h2>Why the old advice stopped working</h2>
+            <p>For years the standard advice was to use the maximum Instagram allowed — thirty hashtags — because early studies showed posts with more tags tended to get more engagement. Those studies were measuring a different platform. Instagram's discovery system at the time leaned heavily on hashtag pages; being present on thirty shelves genuinely meant thirty chances to be found. As recommendation systems took over — ranking by predicted interest, watch time, saves and shares — the marginal value of each extra tag fell. A post is now mostly distributed because the system predicts specific people will enjoy it, and hashtags serve as one labelling signal among many. Thirty labels do not make a post thirty times as discoverable; they mostly make it look like it was labelled by a machine, which, increasingly, the system can tell.</p>
+            <p>There is a second, quieter cost to maxing out: relevance dilution. Every tag you add is a claim about what your post is. Add tags that are only loosely true and you invite the platform to show your post to audiences who will scroll past it — and early indifference is exactly the signal that stops a post spreading. Fewer, truer tags concentrate your post in front of people predisposed to like it.</p>
+
+            <h2>Instagram: 3 to 10, chosen well</h2>
+            <p>Instagram's own creator guidance in recent years has suggested a small number of relevant hashtags — around three to five — and independent tests since then have broadly agreed that a focused handful performs at least as well as a full block of thirty, with Reels skewing to the lower end. Our practical recommendation: <strong>3 to 10 hashtags</strong> for feed posts and carousels, <strong>3 to 5</strong> for Reels. If you enjoy working from a bigger pool, generate 20 or 30 with the <a href="#/">hashtag generator</a> and then keep the tags that are genuinely true of that specific post — the discipline of cutting is itself valuable.</p>
+            <p>Placement matters less than it used to. Tags in the caption and tags in the first comment now perform equivalently for most accounts; choose whichever keeps your caption readable. What does matter is rotation: pasting the identical block under every post for months is associated with declining returns, so keep two or three sets per theme and alternate.</p>
+
+            <h2>TikTok: 3 to 6, written like search queries</h2>
+            <p>TikTok's For You feed is driven overwhelmingly by watch behaviour, so hashtags there play a supporting role: they help the system categorise the video and help you appear in search results, which have become a real discovery channel as more users search TikTok like a search engine. That search role changes how the tags should read — they should be phrases people type, not community slang. <strong>Three to six hashtags</strong> is the working range; beyond that you are spending caption space that would do more work as a keyword-rich description of the video. One broad tag, a couple of specific topic phrases, and — only if it is genuinely true — a format tag describing the kind of video it is. We compare TikTok's system with Instagram's in depth in <a href="#/guide/tiktok-vs-instagram-hashtags">TikTok vs Instagram Hashtags: What Is Different?</a></p>
+
+            <h2>YouTube: 3 that matter, up to 15 allowed</h2>
+            <p>YouTube is the clearest platform of all: it displays the first three hashtags above your video's title, which tells you precisely how many it treats as your topic markers. You can add up to fifteen in the description, but the returns past the first few are negligible, and YouTube explicitly ignores all of a video's hashtags if you add more than fifteen or use misleading ones. Use <strong>three to five</strong>: your core topic, a specific variant of it, and the broader category. Your title, description and chapters do the heavy lifting for YouTube search; hashtags are garnish.</p>
+
+            <h2>X (Twitter): 1 to 2, and only when they join a conversation</h2>
+            <p>On X, hashtags are not a discovery filing system so much as a way to attach a post to a live conversation — an event, a match, a breaking story, a community's standing tag. <strong>One or two</strong> is the norm; three or more makes a post read as promotional and measurably reduces how much people engage with it. Write them in CamelCase (#TrailRunning, not #trailrunning) so screen readers pronounce them as words — a small courtesy that also makes the tag easier for everyone to parse at a glance. The generator's X preset applies this automatically.</p>
+
+            <h2>LinkedIn and Facebook, briefly</h2>
+            <p>LinkedIn behaves like a professional version of the same logic: <strong>three to five</strong> topical tags help posts surface in topic feeds and searches, and members can follow hashtags, which gives good ones a genuine audience. Facebook hashtags are the weakest of the major platforms — one to three relevant tags do no harm, but reach there comes from groups, shares and watch time, not tag pages.</p>
+
+            <h2>The numbers at a glance</h2>
+            <table class="mini">
+              <thead><tr><th>Platform</th><th>Sensible range</th><th>Hard limit</th></tr></thead>
+              <tbody>
+                <tr><td>Instagram (feed)</td><td>3–10</td><td>30</td></tr>
+                <tr><td>Instagram (Reels)</td><td>3–5</td><td>30</td></tr>
+                <tr><td>TikTok</td><td>3–6</td><td>— (caption space)</td></tr>
+                <tr><td>YouTube</td><td>3–5</td><td>15 (more voids all)</td></tr>
+                <tr><td>X</td><td>1–2</td><td>—</td></tr>
+                <tr><td>LinkedIn</td><td>3–5</td><td>—</td></tr>
+              </tbody>
+            </table>
+
+            <h2>The rule to remember</h2>
+            <p>If you take one sentence from this guide, take this: <strong>use the smallest number of hashtags that honestly covers what the post is, who it is for, and where it belongs.</strong> A post about your first marathon needs the marathon, the city, and the beginner-running community — it does not need thirty ways of saying "fitness". Generate generously, publish sparingly, and let the mix of tag sizes do the reach work, as described in <a href="#/guide/big-vs-niche-hashtags">Big vs Niche Hashtags: The Mix That Gets Reach</a>. And whatever number you settle on, check the tags themselves against the restricted lists — a single banned tag can undo the whole set, as <a href="#/guide/banned-hashtags">our banned hashtags guide</a> explains.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ GUIDE 2 ============ -->
+      <div class="view" id="view-guide-big-vs-niche">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Guides › Big vs Niche Hashtags</p>
+          <article class="page article-body">
+            <h1>Big vs Niche Hashtags: The Mix That Gets Reach</h1>
+            <p>Every hashtag has a size, and size decides what the tag can do for you. Post under a giant hashtag and you are shouting in a stadium: enormous crowd, almost no chance of being heard. Post under a tiny one and you are talking in a small room: few people, but every one of them can hear you clearly and was probably looking for exactly your topic. Neither is "better" — they do different jobs, and a good hashtag set uses both on purpose. This guide explains the three layers of a well-built set and the ratios that suit different account sizes.</p>
+
+            <h2>What "big" and "niche" actually mean</h2>
+            <p>A hashtag's size is simply how many posts have used it. On Instagram, tags above roughly a million posts behave as "big" tags: the feed of recent posts under them turns over in seconds, so a new post's chance of being seen there is tiny unless it immediately earns exceptional engagement. Tags between about 50,000 and a million posts form the middle band — active communities with real browsing audiences, where a strong post can sit visibly for hours. Below 50,000 posts you are in niche territory: quiet shelves where a relevant post can stay near the top for days and be found by people searching or following that precise interest.</p>
+            <p>The same logic applies on TikTok and YouTube with views instead of post counts, and the thresholds differ, but the shape is universal: volume and visibility trade against each other. The mistake is choosing one end of the spectrum. All-big sets drown. All-niche sets cap your ceiling — you rank beautifully in rooms too small to grow from.</p>
+
+            <h2>The three-layer method</h2>
+            <p>Build each set in three layers. <strong>Layer one — broad tags (about 20% of the set):</strong> one to three large tags that state the general topic. Their job is classification, not traffic: they tell the platform which neighbourhood this post lives in. <strong>Layer two — mid-sized community tags (about 40%):</strong> the active communities around your topic, where your realistic discovery happens. <strong>Layer three — niche tags (about 40%):</strong> specific, descriptive tags combining your topic with a place, a style, a level, a sub-interest — the tags under which you can genuinely rank and be followed.</p>
+            <p>The <a href="#/">generator on our homepage</a> is built around exactly this structure: its curated lists hold tags at all three sizes for each topic, and it weights the mix toward the niche end at small set sizes and opens it up as you ask for more. When you trim a generated set by hand, trim from layer one first.</p>
+
+            <h2>Ratios by account size</h2>
+            <p>The smaller your account, the further your centre of gravity should sit toward the niche end, because ranking is a competition your early engagement numbers have to win. An account under 1,000 followers might run a 10-tag set as one broad tag, three mid-sized and six niche. Between 10,000 and 100,000 followers, a balanced 2–4–4 split works well. Large accounts can invert the logic — their engagement velocity lets them compete under big tags, and niche tags become the garnish rather than the base. If you are in the early stage, the full plan is in our <a href="#/guide/hashtag-strategy-small-accounts">hashtag strategy for small accounts</a>.</p>
+
+            <h2>Finding your niche tags</h2>
+            <p>Good niche tags are usually compounds: topic + place (#edinburghfood), topic + style (#minimalistwardrobe), topic + audience (#runningformums), topic + level (#beginnerwatercolour). The generator's variation engine builds these forms from your keyword automatically, which is why entering a specific keyword beats a generic one — "trail running" produces far more rankable compounds than "sport". Two more reliable sources: the accounts slightly ahead of you in your niche (their best posts' tags are a tested shortlist), and the platform's own search suggestions, which reveal the phrasings real people type.</p>
+
+            <h2>What to stop doing</h2>
+            <p>Three habits quietly sabotage otherwise good sets. First, using tags that describe your ambitions rather than your post — a home workout video tagged with stadium-sport tags gets shown to the wrong crowd and stalls. Second, copying a celebrity's set wholesale: their tags work at their engagement scale, not yours. Third, never retiring tags. Review your sets monthly; a tag that has not put a single post in front of non-followers in a month is a slot another tag could be using. Hashtag work is mostly this: small, honest labels, mixed by size, pruned by evidence.</p>
+            <p>One last caution that applies to every layer: bigger is not the same as safe. Some very large tags have been restricted at various times precisely because they attracted spam, so size is no substitute for checking. <a href="#/guide/banned-hashtags">How to check a hashtag before you use it</a> takes under a minute, and it protects the whole set.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ GUIDE 3 ============ -->
+      <div class="view" id="view-guide-banned">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Guides › Banned Hashtags</p>
+          <article class="page article-body">
+            <h1>Banned Hashtags: How to Check and Avoid Them</h1>
+            <p>Somewhere in your niche, there is probably a perfectly ordinary word that social platforms quietly restrict as a hashtag — because spammers adopted it, because it developed a second meaning, or because it was used to organise content that broke the rules. Use that tag and nothing dramatic happens: no warning, no strike, no notification. Your post simply stops being distributed the way it should be. This guide explains what restricted hashtags are, how to check any tag before you use it, and how to recover if you discover you have been using one.</p>
+
+            <h2>What "banned" actually means</h2>
+            <p>Platforms rarely use the word "banned" themselves, and there is no complete official list you can download — which is precisely why this catches people out. In practice, restriction comes in grades. Some hashtags are fully blocked: searching them returns nothing or a notice that content is hidden. Others are limited: the tag page exists but shows only a few top posts, or recent posts never appear. And some tags are flagged at the account level when used repeatedly alongside spam-like behaviour, reducing distribution without any single post looking obviously suppressed.</p>
+            <p>The popular term "shadowban" describes the felt experience — reach falls off a cliff with no explanation — but it is worth being precise: in most cases what people call a shadowban is either a restricted hashtag quietly throttling individual posts, or an account-level trust reduction from behaviour that looks automated (mass following and unfollowing, posting identical comment blocks, using third-party bots). The fix differs, so the diagnosis matters.</p>
+
+            <h2>How a normal word ends up restricted</h2>
+            <p>Restriction is usually about usage patterns, not the word itself. A tag becomes a magnet for spam or policy-breaking posts; the platform's systems notice that a high share of content under it violates rules; the tag gets limited to break the gathering place. Innocent communities using the same word — a city name, a weekday, a hobby term with an unfortunate double meaning — are collateral damage. This is also why lists of banned hashtags circulating online go stale: tags get restricted, cleaned up and quietly restored, and a list from two years ago will contain both false alarms and missing dangers.</p>
+
+            <h2>How to check a hashtag in under a minute</h2>
+            <p>You do not need a paid tool; you need sixty seconds and the platform itself. On <strong>Instagram</strong>, search the tag. If the tag page shows a message that recent posts are hidden because some content may not meet community guidelines, the tag is restricted — do not use it. Also follow the tag temporarily: if the "Recent" view is missing or frozen, treat it as a warning sign. On <strong>TikTok</strong>, search the tag and look at the view count and the videos shown; a tag whose page will not load, shows unrelated results only, or displays a safety notice is one to avoid. On any platform, a useful cross-check is simply to search the exact tag in a browser with the word "banned" or "restricted" and read recent results — but weigh recent, first-hand reports over recycled listicles.</p>
+            <p>Build the check into your routine: whenever you create a new hashtag set — including sets from our <a href="#/">hashtag generator</a>, whose curated lists we keep clean but which also generates fresh variations of your keyword — spot-check any tag you have never personally used before. Variations you invent yourself deserve the same check; a compound that reads innocently to you may collide with an existing restricted tag.</p>
+
+            <h2>If you have been using a restricted tag</h2>
+            <p>Do not panic, and do not delete your archive. The practical steps: stop using the tag immediately and remove it from any saved sets and templates — that is where the ongoing damage lives, because templates repeat the mistake on every new post. For recent posts (the last week or two), editing the caption to remove the tag is reasonable where the platform allows it. Then post normally for a couple of weeks with a clean, smaller set — our guide to <a href="#/guide/how-many-hashtags">how many hashtags to use</a> will help you rebuild it — and watch your non-follower reach in analytics. In most hashtag-only cases, distribution recovers on its own once the trigger is gone.</p>
+            <p>If reach stays depressed across many clean posts, the cause is probably account-level rather than tag-level: review any automation tools connected to your account, stop mass follow/unfollow activity, and use the account-status tools the platforms provide (Instagram's Account Status page, for instance, will tell you plainly if your content is ineligible for recommendation). That page is the ground truth — check it before believing any shadowban rumour, including your own suspicions.</p>
+
+            <h2>Habits that keep you safe</h2>
+            <p>Keep your sets varied and post-specific rather than one frozen block repeated for months. Avoid engagement-bait tags that promise follow-for-follow or like-for-like exchanges; they cluster around exactly the behaviour platforms police. Be careful with tags in languages you do not read — a borrowed tag may not mean what you think it means. And when a tag suddenly floods with irrelevant content, retire it early: a tag being overrun today is a tag being restricted tomorrow. Prevention here is genuinely cheap; it is the diagnosis after the fact that costs people weeks.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ GUIDE 4 ============ -->
+      <div class="view" id="view-guide-small-accounts">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Guides › Small Account Strategy</p>
+          <article class="page article-body">
+            <h1>Hashtag Strategy for Small Accounts</h1>
+            <p>If your account has a few hundred or a few thousand followers, most hashtag advice is quietly useless to you, because it is written from the experience of accounts whose posts get thousands of interactions in the first hour. Yours don't — yet — and hashtag strategy is really a game of matching your set to the engagement you can actually generate. This guide lays out a realistic approach for accounts under roughly 10,000 followers: where you can win, what to ignore, and how your sets should evolve as you grow.</p>
+
+            <h2>The one principle: rank where you can</h2>
+            <p>A hashtag page is a competition ranked by engagement. Under a tag with ten million posts, the visible top spots belong to posts with enormous interaction counts; a small account's post, however good, will not displace them, and its brief appearance in the "recent" stream lasts seconds. Under a tag with 8,000 posts, the maths flips: a post with forty genuine likes and a handful of comments can sit in the top grid for days, being found by exactly the people who follow that interest. For a small account, hashtags are not a lottery ticket — they are a ladder, and you climb it one realistically-sized rung at a time. Our guide to <a href="#/guide/big-vs-niche-hashtags">big vs niche hashtags</a> explains the layering in full; for small accounts the practical version is: mostly niche, some mid-sized, one broad tag at most.</p>
+
+            <h2>Your first ninety days</h2>
+            <p><strong>Weeks 1–4: build the library.</strong> Pick the three or four content themes you actually post about. For each, use the <a href="#/">hashtag generator</a> with a specific keyword (your exact sub-topic, not the broad category) and save a set of 10–15 tags, weighted to small and mid-sized ones. Check each unfamiliar tag the way our <a href="#/guide/banned-hashtags">banned hashtags guide</a> describes — two minutes now saves a suppressed month later.</p>
+            <p><strong>Weeks 5–8: rotate and observe.</strong> Alternate between two sets per theme rather than repeating one block, and start noting which posts earn reach from non-followers — every platform's analytics shows this. You are looking for patterns: which theme, which tag cluster, which format. Expect noise; you are looking for repeats, not one lucky post.</p>
+            <p><strong>Weeks 9–12: promote what works.</strong> Tags that keep appearing on your better posts graduate into every set for that theme. Tags that never coincide with non-follower reach get replaced with slightly larger neighbours — the next rung up. This is also when to add one or two mid-sized tags you previously couldn't compete under, because your baseline engagement has grown.</p>
+
+            <h2>Engagement is the fuel; hashtags are the map</h2>
+            <p>Small accounts often treat hashtags as a substitute for the harder work, so it needs saying plainly: tags route distribution, they do not create it. The behaviours that compound for small accounts are unglamorous — replying to every comment in the first hour, spending fifteen minutes engaging inside your niche tags before you post (which also teaches you what those communities actually reward), collaborating with accounts your size, and posting on a schedule your audience can learn. Hashtags make each of those efforts land in the right place. A post with warm early engagement from your community, filed under tags where that engagement level ranks, is the entire engine.</p>
+
+            <h2>Mistakes small accounts make most</h2>
+            <p>Copying the sets of the biggest account in the niche — their tags work at their scale and bury you at yours. Using all thirty slots because they exist; as <a href="#/guide/how-many-hashtags">the per-platform numbers</a> show, a tight set of 5–10 true tags beats a stuffed one. Chasing trending tags unrelated to the post, which earns a burst of indifferent viewers and teaches the platform your content disappoints people. And buying followers or joining engagement pods, which poisons the very engagement-rate signals your hashtag ranking depends on — platforms detect both, and recovery is slow.</p>
+
+            <h2>How your sets should grow with you</h2>
+            <p>Think of your tag library as having weight classes. At under 1,000 followers, live almost entirely under 50,000-post tags. Crossing a few thousand followers with steady engagement, mid-sized tags (up to a few hundred thousand posts) become realistic ranking targets. Past 10,000, you can hold a genuinely mixed set and let one or two big tags ride along for classification. The signal to move up a class is never the follower count itself — it is your typical first-day engagement. When your average post would have ranked under the bigger tag last month, move. Growing accounts that re-test their ceiling every month or two consistently out-grow accounts that set a strategy once and freeze it.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ GUIDE 5 ============ -->
+      <div class="view" id="view-guide-tiktok-vs-instagram">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Guides › TikTok vs Instagram</p>
+          <article class="page article-body">
+            <h1>TikTok vs Instagram Hashtags: What Is Different?</h1>
+            <p>Creators who post the same video to TikTok and Instagram often paste the same hashtag block into both — and quietly underperform on both. The two platforms may look similar on the surface (vertical video, captions, tags underneath), but their discovery engines reward different things, and hashtags plug into those engines in different places. This guide breaks down the real differences and shows how to adapt one topic into two effective sets.</p>
+
+            <h2>Two different discovery engines</h2>
+            <p>Instagram grew up as a social graph: you followed accounts and hashtags, and discovery meant being filed where followers of a topic would look. Even now, with recommendations dominant, hashtags on Instagram still function as a genuine filing and search system — people follow tags, browse tag pages, and search them when planning, shopping and researching. A well-chosen Instagram tag puts you on a shelf that humans actively walk past.</p>
+            <p>TikTok's For You feed was never built on following. It assembles an audience for each video from behavioural signals — watch time, rewatches, shares, the sounds and topics a viewer lingers on. Hashtags there are a weaker categorisation hint for the algorithm and, increasingly, an entry in TikTok's growing search index. People do search TikTok heavily now, especially younger users researching products, places and how-tos — but they search in natural phrases, and that changes how a useful TikTok tag reads.</p>
+
+            <h2>How the tags themselves should differ</h2>
+            <p>On <strong>Instagram</strong>, tags can be community language: the compound, insider tags a niche uses for itself (#slowfashionmovement, #bookstagramuk) work because community members browse and follow them. Descriptive precision wins; a set of 5–10 mixed-size tags tailored to the post is the current sweet spot, as detailed in <a href="#/guide/how-many-hashtags">our per-platform guide</a>.</p>
+            <p>On <strong>TikTok</strong>, write tags the way a stranger would type them into a search bar: plain topic phrases, the problem the video solves, the thing shown. Insider compounds still help categorise, but the traffic-bearing tags are the searchable ones. Three to six is plenty — caption space on TikTok does double duty, because the caption text itself is indexed for search, so a keyword-rich sentence beats three extra tags.</p>
+            <p>One more difference: trend mechanics. On TikTok, a tag attached to a rising sound or format can carry a video far if the video genuinely belongs to that trend — and does nothing, or slightly harms trust, when it doesn't. Instagram's trending tags are slower-moving and more topical. Chasing trends is a TikTok-native tactic; on Instagram, evergreen accuracy compounds better.</p>
+
+            <h2>Adapting one topic into two sets</h2>
+            <p>Take a single post — say, a 30-second video of a small apartment balcony garden. The Instagram set leans community and compound: the broad topic tag, the small-space gardening community tags, the city or climate tag, the specific plants shown, the aesthetic tag the community uses — eight or so tags, mixed sizes, exactly as the <a href="#/">generator</a> produces with Instagram selected. The TikTok version of the same video keeps maybe four: the searchable phrases someone would type ("small balcony garden", "grow vegetables in pots" rendered as tags), one broad tag, and the format tag only if it fits. Same video, two labelling philosophies: one for a shelf browsers walk past, one for a search box and a behavioural engine.</p>
+
+            <h2>What stays the same</h2>
+            <p>For all the differences, the foundations are shared. Relevance beats volume on both platforms — a tag that lies about the content earns indifferent viewers and throttles distribution on either. Restricted and spam-associated tags are a hazard on both, and worth the same one-minute check described in <a href="#/guide/banned-hashtags">Banned Hashtags: How to Check and Avoid Them</a>. Rotation matters on both: identical blocks under every post decay. And on both platforms, hashtags remain the garnish rather than the meal — the first two seconds of the video decide more than any tag ever will.</p>
+            <p>The practical workflow is simple: generate once with your topic, then use the platform selector to rebuild the set for each destination rather than copying one block everywhere. It takes twenty extra seconds per platform, and it is the difference between tags that were written for the room you are actually standing in and tags written for a room you left an hour ago.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ ABOUT ============ -->
+      <div class="view" id="view-about">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › About</p>
+          <article class="page article-body">
+            <h1>About HashtagGenHub</h1>
+            <p>HashtagGenHub is a small, independent tool site built around one idea: finding good hashtags should take seconds, and understanding them should not require wading through hype. The <a href="#/">hashtag generator</a> on our homepage builds sets from curated, hand-maintained lists for popular topics — fitness, travel, food, photography, business, weddings, pets, fashion and more — combined with variations generated from your own keyword, so the result fits your post rather than a generic template.</p>
+            <p>Everything the tool does happens in your browser. Your keywords are not sent to a server, stored, or tracked by us — the lists live inside the page itself, which also means the generator works instantly and for free, as many times as you like.</p>
+            <h2>Why the guides exist</h2>
+            <p>A generator is only as good as the judgement of the person using it, so we publish plain-language guides alongside the tool: <a href="#/guide/how-many-hashtags">how many hashtags to use on each platform</a>, <a href="#/guide/big-vs-niche-hashtags">how to mix big and niche tags</a>, <a href="#/guide/banned-hashtags">how to check for restricted hashtags</a>, <a href="#/guide/hashtag-strategy-small-accounts">strategy for small accounts</a>, and <a href="#/guide/tiktok-vs-instagram-hashtags">how TikTok and Instagram differ</a>. They are written from scratch by us, kept honest about what hashtags can and cannot do, and updated as platforms change their systems.</p>
+            <h2>What we are not</h2>
+            <p>HashtagGenHub is not affiliated with Instagram, TikTok, YouTube, X, or Meta. We do not sell followers, likes, or engagement of any kind, and we do not promise growth — no honest tool can. What we offer is a fast way to produce clean, relevant, platform-appropriate hashtag sets, and the knowledge to use them well.</p>
+            <p>Questions or corrections? You will find how to reach us on the <a href="#/contact">Contact page</a>, and quick answers on the <a href="#/faq">FAQ page</a>.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ FAQ ============ -->
+      <div class="view" id="view-faq">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › FAQ</p>
+          <article class="page article-body" style="max-width:760px;">
+            <h1>Frequently Asked Questions</h1>
+            <details class="faq">
+              <summary>Is the hashtag generator really free?</summary>
+              <p>Yes. The generator is free to use as often as you like, with no account, no sign-up and no limits. It runs entirely in your browser — the hashtag lists are built into the page — so there is nothing to install and nothing to pay for.</p>
+            </details>
+            <details class="faq">
+              <summary>How does the generator choose my hashtags?</summary>
+              <p>It combines two sources. For well-known topics it draws on curated lists we maintain by hand, organised into broad, mid-sized and niche tags. For any keyword it also builds smart variations — compounds and community-style forms of your exact words. The platform you pick then shapes the mix: TikTok sets come out shorter and more search-like, X sets use CamelCase, and YouTube sets lead with your three strongest topic tags.</p>
+            </details>
+            <details class="faq">
+              <summary>How many hashtags should I actually post?</summary>
+              <p>It depends on the platform. As a working rule: 3–10 on Instagram feed posts, 3–5 on Reels, 3–6 on TikTok, 3–5 on YouTube and 1–2 on X. Generating a larger set and trimming it to the tags that truly fit your post is a good workflow. The full reasoning is in <a href="#/guide/how-many-hashtags">How Many Hashtags Should You Use in 2026?</a></p>
+            </details>
+            <details class="faq">
+              <summary>Do hashtags still work in 2026?</summary>
+              <p>Yes — as a labelling and discovery tool, not as a magic growth switch. Platforms now distribute posts mainly by predicted interest, but hashtags still file your post into topic shelves and search results where interested people find it. A relevant post with accurate tags will consistently out-discover the same post with sloppy ones.</p>
+            </details>
+            <details class="faq">
+              <summary>Can a hashtag get my account shadowbanned?</summary>
+              <p>A single restricted hashtag can suppress that post's distribution without any warning, and repeatedly using flagged tags alongside spam-like behaviour can reduce an account's reach more broadly. Our generator's curated lists avoid known restricted tags, but lists age — <a href="#/guide/banned-hashtags">learn to check a tag yourself</a>; it takes under a minute.</p>
+            </details>
+            <details class="faq">
+              <summary>Should I put hashtags in the caption or the first comment?</summary>
+              <p>On Instagram both placements perform equivalently for most accounts today, so choose whichever keeps your caption cleaner to read. On other platforms, hashtags belong in the caption or description itself.</p>
+            </details>
+            <details class="faq">
+              <summary>Why do I get different results when I shuffle?</summary>
+              <p>Because for most topics the pool of good tags is larger than the set you asked for. Shuffling draws a different mix from the same layered pool, which is handy for building the two or three rotating sets we recommend instead of repeating one identical block under every post.</p>
+            </details>
+            <details class="faq">
+              <summary>What if my topic is not one of the popular ones?</summary>
+              <p>Type it anyway. The variation engine works for any keyword — the more specific your keyword ("trail running", "sourdough baking", "street photography"), the more rankable niche tags it can build. Try pairing your topic with a place, a style or an audience for even better compounds.</p>
+            </details>
+            <details class="faq">
+              <summary>Do you store the keywords I type?</summary>
+              <p>No. The tool runs entirely on your device; nothing you type is sent to or stored on a server. See our <a href="#/privacy">Privacy Policy</a> for the full picture.</p>
+            </details>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ CONTACT ============ -->
+      <div class="view" id="view-contact">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Contact</p>
+          <article class="page article-body">
+            <h1>Contact Us</h1>
+            <p>The fastest way to reach the HashtagGenHub team is by email:</p>
+            <p style="font-size:1.15rem;"><strong><a href="mailto:contact@hashtaggenhub.com">contact@hashtaggenhub.com</a></strong></p>
+            <p>We read everything and reply to most messages within two working days. A few things that help us help you:</p>
+            <ul>
+              <li><strong>Found a bad hashtag in a generated set?</strong> Tell us the keyword you used and the tag that looks wrong — keeping the curated lists clean is a standing priority, and reports from users are how restricted or spammy tags get caught between our own reviews.</li>
+              <li><strong>Suggesting a new topic list?</strong> Send the topic and, if you like, a few tags you know work in it. Popular requests get built into the generator.</li>
+              <li><strong>Spotted an error in a guide?</strong> Platform rules change often; if something we wrote no longer matches what a platform does, we want to know, with a link to the platform's own documentation if you have one.</li>
+              <li><strong>Privacy or legal questions?</strong> Mention it in the subject line and your message goes to the front of the queue. Our <a href="#/privacy">Privacy Policy</a> and <a href="#/terms">Terms of Use</a> may answer it first.</li>
+            </ul>
+            <p>Please note that we cannot review individual accounts, diagnose a specific account's reach, or provide personal growth consulting — but the <a href="#/faq">FAQ</a> and our <a href="#/guide/hashtag-strategy-small-accounts">small-account strategy guide</a> cover the questions we are asked most.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ PRIVACY ============ -->
+      <div class="view" id="view-privacy">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Privacy Policy</p>
+          <article class="page article-body">
+            <h1>Privacy Policy</h1>
+            <p><em>Last updated: 22 November 2026.</em></p>
+            <p>HashtagGenHub ("we", "us") operates this website. This policy explains, in plain language, what information is involved when you use the site — which is very little, by design.</p>
+            <h2>The generator collects nothing</h2>
+            <p>The hashtag generator runs entirely in your browser. The keywords you type, the platform and size you choose, and the sets you generate are processed on your own device and are never transmitted to us, stored by us, or shared with anyone. There are no user accounts on this site, and we do not ask for your name, email address, or social media credentials for the tool — and you should never enter your social media password on a site like this one, ours included.</p>
+            <h2>Basic technical data</h2>
+            <p>Like almost every website, our hosting may record standard server log information (such as IP address, browser type and pages requested) for security and operational purposes, and we may use privacy-respecting aggregate analytics to understand which pages and topics are popular. This data is used in aggregate to improve the site; we do not build profiles of individual visitors and we do not sell personal data.</p>
+            <h2>Cookies</h2>
+            <p>The site itself does not set advertising or tracking cookies. If third-party services are embedded in future (for example, an analytics provider), they may set their own cookies as described in their own policies; we will update this page if that changes in any material way.</p>
+            <h2>Email</h2>
+            <p>If you email us, we receive your email address and the contents of your message. We use them only to reply and to handle your request, and we do not add you to any mailing list.</p>
+            <h2>External links</h2>
+            <p>This site links to third-party platforms and resources. We are not responsible for the privacy practices of those sites; please review their policies when you visit them.</p>
+            <h2>Your choices</h2>
+            <p>Because we hold so little data, there is usually nothing to request — but if you believe we hold personal information about you (for example, an email you sent us) and you would like it deleted, contact us via the <a href="#/contact">Contact page</a> and we will delete it.</p>
+            <h2>Changes to this policy</h2>
+            <p>If we change this policy materially, we will update the date at the top of this page. Continued use of the site after a change means you accept the updated policy.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ TERMS ============ -->
+      <div class="view" id="view-terms">
+        <div class="wrap">
+          <p class="crumb"><a href="#/">Home</a> › Terms of Use</p>
+          <article class="page article-body">
+            <h1>Terms of Use</h1>
+            <p><em>Last updated: 22 November 2026.</em></p>
+            <p>By using HashtagGenHub, you agree to these terms. If you do not agree with them, please do not use the site.</p>
+            <h2>The service</h2>
+            <p>HashtagGenHub provides a free hashtag generator and informational guides about social media hashtags. The tool is provided "as is", for personal and commercial content-creation use. You may copy and use the hashtag sets it generates in your own posts without restriction or attribution.</p>
+            <h2>No guarantees</h2>
+            <p>Hashtags are one small input into platform recommendation systems that we do not control and that change without notice. We make no promise or guarantee that using any hashtag set will increase your reach, engagement, followers, or revenue, and we are not liable for changes in how any platform treats any hashtag — including a tag that a platform restricts after we included it in a list. Our guides are general information, not professional marketing advice for your specific situation.</p>
+            <h2>Acceptable use</h2>
+            <p>You agree not to use this site to generate or distribute spam, to harass or impersonate others, or to violate the terms of service of the platforms you post on. You are responsible for the content you publish and for checking that the hashtags you use comply with each platform's rules; our <a href="#/guide/banned-hashtags">banned hashtags guide</a> explains how to check.</p>
+            <h2>Intellectual property</h2>
+            <p>The text, design and code of this site belong to HashtagGenHub and may not be copied wholesale or republished as your own. Hashtags themselves are short functional labels and are not our property — the sets you generate are yours to use freely, as stated above.</p>
+            <h2>Third-party platforms</h2>
+            <p>Instagram, TikTok, YouTube, X and other names mentioned on this site are trademarks of their respective owners. HashtagGenHub is an independent tool and is not affiliated with, endorsed by, or sponsored by any of them.</p>
+            <h2>Changes</h2>
+            <p>We may update these terms from time to time; the current version will always be on this page with its update date. Continued use of the site after changes take effect constitutes acceptance of the revised terms.</p>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site">
+      <div class="wrap">
+        <div class="foot">
+          <div>
+            <h4>HashtagGenHub</h4>
+            <p>A free hashtag generator for Instagram, TikTok, YouTube and X — curated niche lists, smart keyword variations, and honest guides to using them well. Everything runs in your browser; nothing you type is stored.</p>
+          </div>
+          <div>
+            <h4>Guides</h4>
+            <ul>
+              <li><a href="#/guide/how-many-hashtags">How Many Hashtags in 2026?</a></li>
+              <li><a href="#/guide/big-vs-niche-hashtags">Big vs Niche Hashtags</a></li>
+              <li><a href="#/guide/banned-hashtags">Banned Hashtags</a></li>
+              <li><a href="#/guide/hashtag-strategy-small-accounts">Strategy for Small Accounts</a></li>
+              <li><a href="#/guide/tiktok-vs-instagram-hashtags">TikTok vs Instagram</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Site</h4>
+            <ul>
+              <li><a href="#/">Hashtag Generator</a></li>
+              <li><a href="#/about">About</a></li>
+              <li><a href="#/faq">FAQ</a></li>
+              <li><a href="#/contact">Contact</a></li>
+              <li><a href="#/privacy">Privacy Policy</a></li>
+              <li><a href="#/terms">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="fineprint">
+          <span>© 2026 HashtagGenHub. All rights reserved.</span>
+          <span>Not affiliated with Instagram, TikTok, YouTube or X.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script>
+      (function () {
+        "use strict";
+
+        /* ---------- Curated niche lists (layered: broad / mid / niche) ---------- */
+        var NICHE = {
+          fitness: {
+            broad: ["fitness", "gym", "workout", "fitlife", "healthylifestyle"],
+            mid: ["fitnessmotivation", "gymlife", "trainingday", "fitnessjourney", "gymrat", "personaltrainer", "strengthtraining", "homeworkout", "fitnessgoals", "workoutmotivation"],
+            niche: ["trainhardorgohome", "fitnessover40", "gymbeginner", "morningworkoutclub", "progressnotperfection", "strongereveryday", "fitnesscommunity", "workoutathome", "legdayworkout", "fitnesstipsdaily", "traininsane", "gymprogress", "fitnessaddict", "sweatitout", "mindandmuscle"]
+          },
+          travel: {
+            broad: ["travel", "wanderlust", "travelgram", "instatravel", "vacation"],
+            mid: ["travelphotography", "travelblogger", "travellife", "adventuretime", "exploremore", "traveltheworld", "passportready", "roamtheplanet", "traveladdict", "beautifuldestinations"],
+            niche: ["slowtravel", "travelonabudget", "hiddenplaces", "offthebeatenpath", "travelmoments", "windowseatview", "backpackinglife", "solotraveler", "traveldiary", "wanderoften", "roadtripvibes", "mountainescape", "citybreaks", "travelcommunity", "bucketlisttravel"]
+          },
+          food: {
+            broad: ["food", "foodie", "foodporn", "instafood", "yummy"],
+            mid: ["foodblogger", "foodphotography", "foodlover", "homecooking", "foodstagram", "tastyfood", "comfortfood", "foodielife", "homemadefood", "easyrecipes"],
+            niche: ["whatieatinaday", "mealprepmonday", "frommykitchen", "seasonaleating", "foodiesofinstagram", "weeknightdinners", "bakingfromscratch", "eatlocal", "smallbatchbaking", "dinnerinspo", "cookingathome", "realfoodrecipes", "fooddiary", "simplemeals", "kitchenstories"]
+          },
+          photography: {
+            broad: ["photography", "photooftheday", "photographer", "instaphoto", "picoftheday"],
+            mid: ["photographylover", "streetphotography", "portraitphotography", "naturephotography", "photographydaily", "shotoniphone", "landscapephotography", "photographyislife", "goldenhour", "throughmylens"],
+            niche: ["capturethemoment", "framingtheworld", "lightandshadow", "everydayphotography", "photowalk", "visualstorytelling", "chasethelight", "quietmoments", "urbanexplorer", "filmphotographycommunity", "moodygrams", "shutterbuglife", "photographysouls", "seetheworld", "lensculture"]
+          },
+          business: {
+            broad: ["business", "entrepreneur", "success", "smallbusiness", "marketing"],
+            mid: ["entrepreneurlife", "businessowner", "startup", "businesstips", "entrepreneurship", "smallbusinessowner", "marketingtips", "businessgrowth", "hustleculture", "womeninbusiness"],
+            niche: ["buildinpublic", "solopreneur", "founderlife", "bootstrapped", "smallbusinesstips", "growyourbusiness", "businesstipsdaily", "indiebusiness", "workfromanywhere", "sidehustlesuccess", "businesscommunity", "entrepreneurlifestyle", "mindsetforsuccess", "dailygrind", "bossmoves"]
+          },
+          wedding: {
+            broad: ["wedding", "weddingday", "bride", "weddinginspiration", "love"],
+            mid: ["weddingphotography", "weddingideas", "bridetobe", "weddingplanning", "weddingdress", "realwedding", "weddingseason", "engaged", "weddingdetails", "modernwedding"],
+            niche: ["intimatewedding", "weddingstory", "justmarriedmoments", "rusticwedding", "bohowedding", "weddingmorning", "firstlookmoment", "weddingparty", "sayyestothedress", "weddingvibes", "happilyeverafter", "weddingcountdown", "outdoorwedding", "weddingflowers", "idoforever"]
+          },
+          pets: {
+            broad: ["pets", "dogsofinstagram", "catsofinstagram", "petlover", "animals"],
+            mid: ["doglife", "catlife", "petstagram", "doglovers", "catlovers", "puppylove", "instadog", "instacat", "petoftheday", "furryfriends"],
+            niche: ["dogsoftheworld", "catsoftheworld", "rescuedogsofinstagram", "adoptdontshop", "dogmomlife", "catmomlife", "petcommunity", "dailydog", "seniordogsrock", "pawfectday", "mydogiscuterthanyours", "lifewithdogs", "catcuddles", "goodboy", "petadventures"]
+          },
+          fashion: {
+            broad: ["fashion", "style", "ootd", "fashionista", "outfitoftheday"],
+            mid: ["fashionblogger", "styleinspo", "fashionstyle", "dailylook", "streetstyle", "fashionlover", "outfitinspo", "styleblogger", "fashiondaily", "instastyle"],
+            niche: ["slowfashion", "capsulewardrobe", "vintagestyle", "minimalistfashion", "sustainablefashion", "thriftedfashion", "effortlessstyle", "wardrobegoals", "styleover40", "everydaystyle", "neutralstyle", "fashioncommunity", "whatiwore", "timelessstyle", "secondhandstyle"]
+          }
+        };
+
+        /* Aliases that map typed keywords onto a curated list */
+        var ALIASES = {
+          "gym": "fitness", "workout": "fitness", "exercise": "fitness", "running": "fitness", "yoga": "fitness", "crossfit": "fitness", "bodybuilding": "fitness", "health": "fitness",
+          "trip": "travel", "holiday": "travel", "vacation": "travel", "backpacking": "travel", "adventure": "travel", "tourism": "travel",
+          "cooking": "food", "recipes": "food", "recipe": "food", "baking": "food", "chef": "food", "restaurant": "food", "foodie": "food",
+          "photo": "photography", "camera": "photography", "portrait": "photography", "landscape": "photography",
+          "entrepreneur": "business", "startup": "business", "marketing": "business", "small business": "business", "money": "business",
+          "bride": "wedding", "marriage": "wedding", "engagement": "wedding",
+          "dog": "pets", "dogs": "pets", "cat": "pets", "cats": "pets", "puppy": "pets", "kitten": "pets", "pet": "pets",
+          "style": "fashion", "clothing": "fashion", "outfit": "fashion", "beauty": "fashion", "makeup": "fashion"
+        };
+
+        /* Platform extras appended (sparingly) per platform */
+        var PLATFORM_EXTRAS = {
+          tiktok: ["fyp", "foryoupage", "viralvideo", "learnontiktok"],
+          youtube: ["shorts", "youtubevideo", "subscribe"],
+          instagram: [],
+          x: []
+        };
+
+        var state = { size: 20, lastTags: [], lastKeyword: "" };
+
+        function cleanKeyword(raw) {
+          return (raw || "").toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
+        }
+        function slug(s) { return s.replace(/\s+/g, ""); }
+        function camel(s) {
+          return s.split(" ").map(function (w) { return w.charAt(0).toUpperCase() + w.slice(1); }).join("");
+        }
+
+        /* Smart variations of the keyword itself */
+        function variations(kw) {
+          var s = slug(kw), c = camel(kw);
+          var forms = [
+            s, s + "life", s + "lover", s + "lovers", "love" + s, s + "daily",
+            s + "goals", s + "community", s + "oftheday", s + "gram", s + "addict",
+            s + "inspiration", "daily" + s, s + "world", s + "vibes", s + "time",
+            s + "nation", s + "diaries", s + "journey", "my" + s, s + "lover",
+            s + "obsessed", s + "moments", "the" + s + "life", s + "stories",
+            s + "club", "insta" + s, s + "photography", s + "tips", s + "ideas"
+          ];
+          var out = [], seen = {};
+          forms.forEach(function (f) { if (!seen[f] && f.length > 2) { seen[f] = 1; out.push(f); } });
+          return { lower: out, camelBase: c };
+        }
+
+        function shuffleArr(a) {
+          var arr = a.slice();
+          for (var i = arr.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+          }
+          return arr;
+        }
+
+        function buildSet(keywordRaw, platform, size) {
+          var kw = cleanKeyword(keywordRaw);
+          if (!kw) kw = "creativity";
+          var key = ALIASES[kw] || (NICHE[kw] ? kw : null);
+          var v = variations(kw);
+          var pool = { broad: [], mid: [], niche: [] };
+
+          if (key) {
+            pool.broad = NICHE[key].broad.slice();
+            pool.mid = NICHE[key].mid.slice();
+            pool.niche = NICHE[key].niche.slice();
+          }
+          /* Keyword variations enrich every layer; the exact keyword is always the anchor. */
+          pool.broad = pool.broad.concat(v.lower.slice(0, 2));
+          pool.mid = pool.mid.concat(v.lower.slice(2, 10));
+          pool.niche = pool.niche.concat(v.lower.slice(10));
+
+          var nBroad = Math.max(1, Math.round(size * 0.2));
+          var nMid = Math.round(size * 0.4);
+          var nNiche = size - nBroad - nMid;
+
+          var picked = [];
+          function take(layer, n) {
+            var shuffled = shuffleArr(pool[layer]);
+            for (var i = 0; i < shuffled.length && n > 0; i++) {
+              if (picked.indexOf(shuffled[i]) === -1) { picked.push(shuffled[i]); n--; }
+            }
+            return n;
+          }
+          var left = take("niche", nNiche);
+          left += take("mid", nMid + left);
+          left += take("broad", nBroad + left);
+          /* top up from any layer if the pool was small */
+          if (left > 0) {
+            var all = shuffleArr(pool.broad.concat(pool.mid, pool.niche));
+            for (var i = 0; i < all.length && left > 0; i++) {
+              if (picked.indexOf(all[i]) === -1) { picked.push(all[i]); left--; }
+            }
+          }
+          /* Anchor: exact keyword first, unless it duplicates a curated pick */
+          var anchor = slug(kw);
+          picked = picked.filter(function (t) { return t !== anchor; });
+          picked.unshift(anchor);
+          picked = picked.slice(0, size);
+
+          /* Platform extras: swap in a couple at the end for TikTok/YouTube */
+          var extras = PLATFORM_EXTRAS[platform] || [];
+          if (extras.length && picked.length > 4) {
+            var swap = platform === "tiktok" ? 2 : 1;
+            for (var e = 0; e < swap; e++) {
+              var ex = extras[e];
+              if (picked.indexOf(ex) === -1) picked[picked.length - 1 - e] = ex;
+            }
+          }
+          /* X prefers CamelCase for accessibility */
+          if (platform === "x") {
+            picked = picked.map(function (t) {
+              if (t === anchor) return camel(kw);
+              return t.charAt(0).toUpperCase() + t.slice(1);
+            });
+          }
+          return picked;
+        }
+
+        /* ---------- Rendering & copying ---------- */
+        var $ = function (id) { return document.getElementById(id); };
+        var toastTimer = null;
+        function toast(msg) {
+          var t = $("toast");
+          t.textContent = msg;
+          t.classList.add("show");
+          clearTimeout(toastTimer);
+          toastTimer = setTimeout(function () { t.classList.remove("show"); }, 2200);
+        }
+        function copyText(text, msg) {
+          function done() { toast(msg || "Copied to clipboard"); }
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(done, function () { fallback(); });
+          } else { fallback(); }
+          function fallback() {
+            var ta = document.createElement("textarea");
+            ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+            document.body.appendChild(ta); ta.select();
+            try { document.execCommand("copy"); done(); }
+            catch (e) { toast("Copy failed — select the text manually"); }
+            document.body.removeChild(ta);
+          }
+        }
+
+        function render(tags) {
+          state.lastTags = tags;
+          var chips = $("chips");
+          chips.innerHTML = "";
+          tags.forEach(function (tag) {
+            var b = document.createElement("button");
+            b.type = "button";
+            b.className = "tagchip";
+            b.textContent = "#" + tag;
+            b.setAttribute("aria-label", "Copy #" + tag);
+            b.addEventListener("click", function () {
+              copyText("#" + tag, "Copied #" + tag);
+              b.classList.add("copied");
+              setTimeout(function () { b.classList.remove("copied"); }, 1200);
+            });
+            chips.appendChild(b);
+          });
+          var joined = tags.map(function (t) { return "#" + t; }).join(" ");
+          $("output").value = joined;
+          $("tagcount").textContent = tags.length;
+          $("charcount").textContent = joined.length;
+          $("results").classList.add("show");
+        }
+
+        function generate() {
+          var kw = $("keyword").value;
+          var platform = $("platform").value;
+          if (!cleanKeyword(kw)) {
+            toast("Type a keyword first — try fitness, travel or wedding");
+            $("keyword").focus();
+            return;
+          }
+          state.lastKeyword = kw;
+          render(buildSet(kw, platform, state.size));
+        }
+
+        $("generate").addEventListener("click", generate);
+        $("keyword").addEventListener("keydown", function (e) { if (e.key === "Enter") generate(); });
+        $("platform").addEventListener("change", function () { if (state.lastKeyword) generate(); });
+        $("shuffle").addEventListener("click", function () {
+          if (state.lastKeyword) { generate(); toast("New mix generated"); }
+          else { toast("Generate a set first, then shuffle it"); }
+        });
+        $("copyall").addEventListener("click", function () {
+          if (state.lastTags.length) copyText($("output").value, "All " + state.lastTags.length + " hashtags copied");
+        });
+        $("copynospace").addEventListener("click", function () {
+          if (state.lastTags.length) copyText(state.lastTags.map(function (t) { return "#" + t; }).join(""), "Copied as one line");
+        });
+        document.querySelectorAll(".seg button").forEach(function (b) {
+          b.addEventListener("click", function () {
+            document.querySelectorAll(".seg button").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+            b.setAttribute("aria-pressed", "true");
+            state.size = parseInt(b.getAttribute("data-size"), 10);
+            if (state.lastKeyword) generate();
+          });
+        });
+        document.querySelectorAll(".quick button").forEach(function (b) {
+          b.addEventListener("click", function () {
+            $("keyword").value = b.getAttribute("data-kw");
+            generate();
+            document.getElementById("tool").scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+        });
+
+        /* ---------- Hash router ---------- */
+        var ROUTES = {
+          "/": "view-home",
+          "/guide/how-many-hashtags": "view-guide-how-many",
+          "/guide/big-vs-niche-hashtags": "view-guide-big-vs-niche",
+          "/guide/banned-hashtags": "view-guide-banned",
+          "/guide/hashtag-strategy-small-accounts": "view-guide-small-accounts",
+          "/guide/tiktok-vs-instagram-hashtags": "view-guide-tiktok-vs-instagram",
+          "/about": "view-about",
+          "/faq": "view-faq",
+          "/contact": "view-contact",
+          "/privacy": "view-privacy",
+          "/terms": "view-terms"
+        };
+        var TITLES = {
+          "/": "Hashtag Generator — Free Hashtags for Instagram, TikTok, YouTube & X | HashtagGenHub",
+          "/guide/how-many-hashtags": "How Many Hashtags Should You Use in 2026? (Per Platform) | HashtagGenHub",
+          "/guide/big-vs-niche-hashtags": "Big vs Niche Hashtags: The Mix That Gets Reach | HashtagGenHub",
+          "/guide/banned-hashtags": "Banned Hashtags: How to Check and Avoid Them | HashtagGenHub",
+          "/guide/hashtag-strategy-small-accounts": "Hashtag Strategy for Small Accounts | HashtagGenHub",
+          "/guide/tiktok-vs-instagram-hashtags": "TikTok vs Instagram Hashtags: What Is Different? | HashtagGenHub",
+          "/about": "About | HashtagGenHub",
+          "/faq": "FAQ | HashtagGenHub",
+          "/contact": "Contact | HashtagGenHub",
+          "/privacy": "Privacy Policy | HashtagGenHub",
+          "/terms": "Terms of Use | HashtagGenHub"
+        };
+        function route() {
+          var hash = window.location.hash.replace(/^#/, "");
+          if (!hash) hash = "/";
+          if (hash.charAt(0) !== "/") hash = "/" + hash;
+          var viewId = ROUTES[hash] || "view-home";
+          document.querySelectorAll(".view").forEach(function (v) { v.classList.remove("active"); });
+          var el = document.getElementById(viewId);
+          if (el) el.classList.add("active");
+          document.title = TITLES[hash] || TITLES["/"];
+          window.scrollTo(0, 0);
+        }
+        window.addEventListener("hashchange", route);
+        route();
+      })();
+    </script>
+  </body>
+</html>
